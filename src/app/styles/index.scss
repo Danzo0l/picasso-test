@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  height: 100vh;
+  max-height: 100vh;
+}
+
+#root {
+  height: 100%;
+}
+
+.page {
+  box-sizing: border-box;
+  margin: auto;
+  max-width: 80rem;
+  padding: 16px;
+}
+
+.list-height {
+  height: calc(100vh - 96px);
+}
