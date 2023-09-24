@@ -6,7 +6,7 @@ const OpenDetails = (props: OpenDetailsProps) => {
   return (
     <Link
       className="text-green-500 m-1 text-lg hover:text-sky-400"
-      to={'/picasso-test/details/' + props.id}
+      to={'/details/' + props.id}
     >
       <p>Details</p>
     </Link>
